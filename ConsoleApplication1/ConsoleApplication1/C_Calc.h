@@ -1,10 +1,13 @@
 #pragma once
-class C_Calc
+namespace calc
 {
-protected:
-	float petrol_cost;
-	float distance;
+	class C_Calc
+	{
+	protected:
+		float petrol_cost;
+		float distance;
 
-	C_Calc(float petrol_cost, float distance);
-	virtual float calc() = 0;
-};
+		C_Calc(float petrol_cost, float distance);
+		virtual float calc() = 0;
+	};
+}
