@@ -1,6 +1,6 @@
-#include "C_Calc.h"
-calc::C_Calc::C_Calc(float petrol_cost, float distance)
+#include "C_Calc.h" 
+using namespace calc;
+C_Calc::C_Calc(float distance)
 {
 	this->distance = distance;
-	this->petrol_cost = petrol_cost;
 }
